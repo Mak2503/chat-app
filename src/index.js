@@ -46,7 +46,7 @@ swaggerSetup(app);
 app.get('/', (req, res) => {
   res.json({
     message: 'Welcome to the Chat API',
-    documentation: '/api-docs'
+    documentation: '/api/docs/user'
   });
 });
 
